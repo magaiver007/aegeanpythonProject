@@ -24,4 +24,4 @@ elif grade < 65 and grade > 50:
 elif grade == 50:
     print("Passing")
 else:
-    print ("Fail")
+    print("Fail")
