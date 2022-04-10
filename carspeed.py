@@ -1,5 +1,6 @@
-# initialize class car (brand,color,year,speed,orientation)
+# NIKOS BOUSIS 2022
 # in case args speed and orientation are null they get default values
+# initialize class car (brand,color,year,speed,orientation)
 class car:
     def __init__(self, brand, color, year):
         self.brand = brand
@@ -30,5 +31,3 @@ print(sedan.brand, sedan.color, sedan.year, sedan.speed, sedan.orientation)
 
 sedan.speed_up(speed=90)
 print(sedan.brand, sedan.color, sedan.year, sedan.speed, sedan.orientation)
-
-
